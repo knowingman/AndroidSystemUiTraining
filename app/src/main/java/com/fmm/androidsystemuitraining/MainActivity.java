@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.ColorTranslucentTheme).setOnClickListener(this);
         findViewById(R.id.ImageTranslucentTheme).setOnClickListener(this);
+        Object o = new Object();
     }
 
     @Override
